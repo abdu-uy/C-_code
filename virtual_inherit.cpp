@@ -3,7 +3,7 @@ using namespace std;
 
 class animal{
     public:
-        virtual void speak()=0;
+        virtual void speak()=0;// this is virtual func ,only declare here ,defined when used by subclass
         virtual void eat()=0;
         virtual ~animal();
 };
